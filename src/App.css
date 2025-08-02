@@ -1,0 +1,59 @@
+.page {
+  /* border: 2px red solid; */
+  width: 100vw;
+  height: 100vh;
+}
+.header {
+  background: url("./assets/background_space.jpeg") top center / 100% 50vh
+    no-repeat;
+  display: flex;
+  max-width: 100vw;
+  min-height: 50vh;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  overflow-wrap: normal;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.view-btn {
+  background-color: rgb(244, 247, 247);
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.view-btn:hover,
+.view-btn:focus-visible {
+  transform: scale(1.05);
+}
+.default {
+  color: black;
+  height: 50vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-profile-top-5 {
+  max-width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  background-color: rgba(185, 174, 174, 0.322);
+  min-width: fit-content;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,48 @@
+.card {
+  background-color: white;
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  color: black;
+}
+
+.card__photo {
+  flex: 0 0 60%;
+  /* width: 100%; */
+  object-fit: cover;
+  object-position: center;
+  height: 50%;
+}
+
+.card__overlay {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+  overflow-y: auto;
+  font-size: clamp(1em, 0.5vw, 1rem);
+}
+
+.card__social {
+  display: flex;
+  gap: 0.5rem;
+}
+.card__overlay {
+  flex: 1;
+  padding: 0.1rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2em;
+}
+.card__description {
+  height: fit-content;
+  margin: 0px;
+}

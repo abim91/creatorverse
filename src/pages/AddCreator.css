@@ -1,0 +1,50 @@
+/* AddCreatorForm.css */
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  min-width: fit-content;
+  max-width: 100vw;
+}
+
+/* the actual <form> */
+.creator-form {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 2.5rem 3rem;
+  border-radius: 12px;
+  display: grid;
+  gap: 1.4rem;
+  /* width: min(90%, 480px); never wider than 480 px */
+}
+
+.creator-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.95rem;
+  gap: 0.35rem;
+}
+
+.creator-form input,
+.creator-form textarea {
+  padding: 0.65rem 0.9rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+}
+
+.creator-form .button {
+  background-color: aqua;
+  color: black;
+  font-weight: 600;
+  padding: 0.9rem 1.3rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 150ms ease-in-out;
+}
+
+.creator-form button:hover,
+.creator-form button:focus-visible {
+  transform: scale(1.05); /* identical 5 % grow */
+}
